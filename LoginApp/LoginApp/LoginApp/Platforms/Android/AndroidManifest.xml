@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.mycompany.loginapp" android:installLocation="auto" android:versionCode="1" android:versionName="1.0">
+	<application android:name="LoginApp.Ui.Droid.LoginApplication" android:allowBackup="true" android:icon="@mipmap/appicon" android:supportsRtl="true" android:label="LoginApp"></application>
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+	<uses-permission android:name="android.permission.WAKE_LOCK" />
+	<uses-permission android:name="com.symbol.emdk.permission.EMDK" />
+	<uses-permission android:name="com.zebra.provider.READ" />
+	<uses-permission android:name="android.permission.BATTERY_STATS" />
+	<uses-permission android:name="android.permission.VIBRATE" />
+	<uses-sdk android:minSdkVersion="21" android:targetSdkVersion="29" />
+</manifest>
